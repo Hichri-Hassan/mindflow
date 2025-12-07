@@ -16,10 +16,15 @@ object AppConfig {
     /**
      * Gemini API Key
      * 
-     * Set this to your API key to enable AI-powered mood analysis.
-     * If empty or null, the app will use local keyword-based analysis.
+     * ⚠️ FOR CONTEST EVALUATION: API key included for judges to test AI features.
+     * In production, this should be in BuildConfig or encrypted storage.
+     * 
+     * If you want to use your own key:
+     * 1. Go to https://makersuite.google.com/app/apikey
+     * 2. Create a new API key
+     * 3. Replace the key below
      */
-    const val GEMINI_API_KEY: String = "" // Add your API key here or use BuildConfig
+    const val GEMINI_API_KEY: String = "AIzaSyDUvs4RUmbq2IKF_eRuV_SGN4vNDbKLTXk"
     
     /**
      * Check if AI features are enabled
